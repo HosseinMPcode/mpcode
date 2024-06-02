@@ -9,11 +9,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 
 .h-300{
     height:300px;
+}
+.image-responsive{
+    width: 100%;
 }
 .img-res{
     max-width:100%;
