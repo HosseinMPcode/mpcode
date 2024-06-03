@@ -29,3 +29,12 @@
 .bg-black{
     background-color: black;
 }
+
+
+.shadow-hover{
+    transition: all 1s linear; 
+}
+.shadow-hover:hover{
+    box-shadow: #b19c7b 0px 10px 90px;
+    transform: translateY(-10px);
+}
