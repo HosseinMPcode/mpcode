@@ -11,10 +11,8 @@
     box-sizing: border-box;
     color: white;
 }
-
-
-.h-300{
-    height:300px;
+.h-100{
+    height:100px;
 }
 .image-responsive{
     width: 100%;
@@ -35,6 +33,6 @@
     transition: all 1s linear; 
 }
 .shadow-hover:hover{
-    box-shadow: #b19c7b 0px 10px 90px;
+    box-shadow: #b19c7b 0px 10px 50px;
     transform: translateY(-10px);
 }
