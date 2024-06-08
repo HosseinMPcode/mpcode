@@ -27,12 +27,22 @@
 .bg-black{
     background-color: black;
 }
-
-
 .shadow-hover{
     transition: all 1s linear; 
 }
 .shadow-hover:hover{
     box-shadow: #b19c7b 0px 10px 50px;
     transform: translateY(-10px);
+}
+/* more about section */
+.more-about{
+    padding: 80px 10px;
+    margin: 50px 0;
+    background-image: url(../images/worldwide-global-map-outline-black-background_1017-46153.jpg);
+    background-size: contain;
+    background-repeat: repeat no-repeat;
+    background-color: black;
+}
+.more-about h1 ,p {
+    isolation: isolate;
 }
