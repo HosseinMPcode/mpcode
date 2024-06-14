@@ -76,3 +76,15 @@
 .w-80{
     width: 80%;
 }
+
+
+/* Pre codes */
+.text-justify{
+    text-align: justify;
+}
+.max-width-75{
+    max-width: 75%;
+}
+.h-200px{
+    height: 200px;
+}
