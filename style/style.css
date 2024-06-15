@@ -11,6 +11,9 @@
     box-sizing: border-box;
     color: white;
 }
+a{
+    text-decoration: none;
+}
 .h-100{
     height:100px;
 }
@@ -102,19 +105,7 @@
 }
 
 [class |= "logo-item"]{
-    /* width: 200px;
-    height: 100px;
-    background: forestgreen;
-    border-radius: 10px;
-    position: absolute;
-    left: 100%;
-    animation-name: scroll-left;
-    animation-duration: 30s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-delay: 10s; */
-
-    width: 200px;
+  width: 200px;
   height: 100px;
   border-radius: 6px;
   position: absolute;
@@ -123,7 +114,6 @@
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-
 }
 .logo-item-1{
     animation-delay: calc(30s / 8 * (8 - 1) * -1);
@@ -149,7 +139,35 @@
 .logo-item-8{
     animation-delay: calc(30s / 8 * (8 - 8 ) * -1 );
 } 
-
+/* contact section  */
+.contanct-hr{
+    height: 2px;
+    width: 160px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 40px;
+}
+/* social media */
+.social-media-container{
+    height: 100px;
+    width: 100%;
+}
+.social-media-item i{
+    font-size: 30px;
+    padding:10px;
+    color: #a2a3a6;
+}
+/* footer */
+.footer-hr{
+    width: 80%;
+    height: 2px;
+    background-color: #a2a3a6;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.copyrights > :first-child{
+    font-size: 13px;
+}
 /* Pre codes */
 .text-justify{
     text-align: justify;
