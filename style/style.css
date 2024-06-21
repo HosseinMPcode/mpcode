@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
